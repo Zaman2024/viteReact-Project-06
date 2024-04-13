@@ -3,13 +3,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
-}
-/* .flex{
-  display: flex;
-  justify-items: flex-end;
-} */
+  justify-content: space-between;
+  background-color: rgb(50, 6, 145);
 
+}
 
 
 /**------------------------------**/

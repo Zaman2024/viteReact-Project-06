@@ -2,27 +2,17 @@ import React from "react";
 import "./Navbar.css";
 import {NavLink } from "react-router-dom";
 
-export default function Navbar(){
+export const Navbar = () => {
   return (
     <>
-    <div class="bg1">
-    <div id="sq"></div>
-    <div id="cr"></div>
-    <div id="sq"></div>
-  </div>
-  <div class="bg2">
-    <div id="sq"></div>
-    <div id="cr"></div>
-    <div id="sq"></div>
-  </div>
-      <nav className="navbar bg-gray-950 py-2 font-semibold">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <NavLink to="/Home" className="navbar-brand">
             DIGITAL <i>Protfollio</i>
           </NavLink>
         </div>
-        <div className="flex">
-            <ul className="flex md:flex md:flex-grow flex-row-reverse space-x-1">
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul>
                 <li>
                     <NavLink>About</NavLink>
                 </li>
@@ -33,10 +23,13 @@ export default function Navbar(){
                     <NavLink>Education</NavLink>
                 </li>
                 <li>
-                    <NavLink>Contact</NavLink>
+                    <NavLink>COntact</NavLink>
                 </li>
-            </ul> 
+
+            </ul>
+            
         </div>
+        
       </nav>
     </>
   );
