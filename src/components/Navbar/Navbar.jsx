@@ -1,39 +1,49 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Navbar.css";
-import {NavLink } from "react-router-dom";
+import {Link, NavLink } from "react-router-dom";
 
 export default function Navbar(){
+  const [menuOpen, setMenuOpen] = useState(false)
+
+
   return (
     <>
-    <div class="bg1">
+    <div className="bg1">
     <div id="sq"></div>
     <div id="cr"></div>
     <div id="sq"></div>
   </div>
-  <div class="bg2">
+  <div className="bg2">
     <div id="sq"></div>
     <div id="cr"></div>
     <div id="sq"></div>
   </div>
-      <nav className="navbar bg-gray-950 py-2 font-semibold">
+      <nav className="navbar bg-gray-950 px-4 py-5 text-lg">
         <div className="container-fluid">
-          <NavLink to="/Home" className="navbar-brand">
+          <Link to="/" className="navbar-brand text-2xl">
             DIGITAL <i>Protfollio</i>
-          </NavLink>
+          </Link>
+        </div>
+        <div className="menu" onClick={()=>{
+          setMenuOpen(!menuOpen)
+        }}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
         <div className="flex">
-            <ul className="flex md:flex md:flex-grow flex-row-reverse space-x-1">
+            <ul className={menuOpen? "open":""}>
                 <li>
-                    <NavLink>About</NavLink>
+                    <NavLink to='/About'>About</NavLink>
                 </li>
                 <li>
-                    <NavLink>Professional Skill</NavLink>
+                    <NavLink to='/ProSkill'>Pro.Skill</NavLink>
                 </li>
                 <li>
-                    <NavLink>Education</NavLink>
+                    <NavLink to='/Edu'>Education</NavLink>
                 </li>
                 <li>
-                    <NavLink>Contact</NavLink>
+                    <NavLink to='/Contact'>Contact</NavLink>
                 </li>
             </ul> 
         </div>
