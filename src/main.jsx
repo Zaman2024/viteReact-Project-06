@@ -7,6 +7,8 @@ import About from './components/About/About'
 import Home from './components/Home/Home'
 import ProSkill from './components/ProSkill/ProSkill'
 import Edu from './components/Education/Edu'
+import User from './components/User/User'
+
 
 
 //----First Method of Rendering coomponents------
@@ -18,6 +20,8 @@ const router = createBrowserRouter(
       <Route path='About' element= {<About/>}/>
       <Route path='ProSkill' element= {<ProSkill/>}/>
       <Route path='Edu' element= {<Edu/>}/>
+      <Route path='user/:userid' element= {<User/>}/>
+      
     </Route>
   )
 )

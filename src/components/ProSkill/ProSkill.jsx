@@ -13,7 +13,7 @@ export default function ProSkill() {
               to="https://storage.googleapis.com/programminghub/certificate%2F1710345389082.pdf"
               target="_blank"
             >
-              <img src="./Img/w3school.png" alt="img" />
+              <img src="./Img/w3school.png" alt="img" style={{width:270, height:100}} />
             </Link>
           </div>
           <h4>HTML Course</h4>
@@ -40,7 +40,7 @@ export default function ProSkill() {
             <Link to="https://storage.googleapis.com/programminghub/certificate%2F1701326592409.jpg"
               target="_blank"
             >
-              <img src="./Img/programinghup.png" alt="img" />
+              <img src="./Img/programinghup.png" alt="img" style={{width:270, height:100}} />
             </Link>
           </div>
           <h4>JavaScript Advance Course</h4>
@@ -67,7 +67,7 @@ export default function ProSkill() {
             <Link to="https://storage.googleapis.com/programminghub/certificate%2F1710345389082.pdf"
               target="_blank"
             >
-              <img src="./Img/w3school.png" alt="img" />
+              <img src="./Img/w3school.png" alt="img" style={{width:270, height:100}} />
             </Link>
           </div>
           <h4>CSS</h4>
@@ -90,7 +90,7 @@ export default function ProSkill() {
         <div className="container5">
           <div className="image bg-cover">
             <Link to="https://www.tcsion.com/">
-              <img src="./Img/hqdefault.jpg" alt="img" />
+              <img src="./Img/hqdefault.jpg" alt="img" style={{width:270, height:100}} />
             </Link>
           </div>
           <h4>Communication</h4>
@@ -115,7 +115,7 @@ export default function ProSkill() {
         <div className="container6">
           <div className="image bg-cover">
             <Link to="https://storage.googleapis.com/programminghub/certificate%2F1701326592409.pdf">
-              <img src="./Img/unnamed.png" alt="img" />
+              <img src="./Img/unnamed.png" alt="img" style={{width:270, height:100}} />
             </Link>
           </div>
           <h4>Supervisor</h4>
@@ -138,7 +138,7 @@ export default function ProSkill() {
         <div className="container7">
           <div className="image bg-cover">
             <Link to="https://alison.com/certification/check/$2y$10$5Q1LLqlTIhHLfAzAhnskOOiiWZqMpN1NDrrppWZQ6XHDkh1bWZEmC">
-              <img src="./Img/alison-logo-inverted.jpg" alt="img" />
+              <img src="./Img/alison-logo-inverted.jpg" alt="img" style={{width:270, height:100}} />
             </Link>
           </div>
           <h4>course name</h4>
