@@ -40,8 +40,8 @@ export default function Home() {
             <span ref={el}></span>
           </div>
         </div>
-        <div class="right">
-          <img id="img1" src="./Img/image.png" alt="image" />
+        <div className="right">
+          <img id="img1" src="./Img/image.png" alt="image"/>
         </div>
       </div>
     </div>

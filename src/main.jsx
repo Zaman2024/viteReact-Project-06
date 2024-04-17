@@ -5,6 +5,7 @@ import {RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout'
 import About from './components/About/About'
 import Home from './components/Home/Home'
+import ProSkill from './components/ProSkill/ProSkill'
 
 const router = createBrowserRouter([
   {
@@ -19,13 +20,15 @@ const router = createBrowserRouter([
         path : "about",
         element : <About />
       },
+      {
+        path : "ProSkill",
+        element : <ProSkill />
+      }
       
     
     ]
   }
 ])
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

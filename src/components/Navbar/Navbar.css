@@ -16,7 +16,7 @@ nav ul li a{
 }
 
 .active {
-  background-color: blue;
+  background-color: rgb(31, 19, 51);
 }
 
 ul li a:not(.active):hover {

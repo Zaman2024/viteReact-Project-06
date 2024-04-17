@@ -16,6 +16,7 @@ body {
 .bg1 {
     position: fixed;
     display: flex;
+    background-attachment: fixed;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
@@ -56,6 +57,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    background-attachment: fixed;
     flex-direction: row;
     width: 100%;
     height: auto;
