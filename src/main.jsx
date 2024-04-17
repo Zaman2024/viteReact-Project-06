@@ -9,7 +9,7 @@ import ProSkill from './components/ProSkill/ProSkill'
 import Edu from './components/Education/Edu'
 
 
-//  First Method of Rendering coomponents
+//----First Method of Rendering coomponents------
 
 const router = createBrowserRouter(
   createRoutesFromElements(
