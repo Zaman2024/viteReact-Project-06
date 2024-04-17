@@ -6,6 +6,7 @@ import Layout from './Layout'
 import About from './components/About/About'
 import Home from './components/Home/Home'
 import ProSkill from './components/ProSkill/ProSkill'
+import Edu from './components/Education/Edu'
 
 const router = createBrowserRouter([
   {
@@ -23,9 +24,12 @@ const router = createBrowserRouter([
       {
         path : "ProSkill",
         element : <ProSkill />
+      },
+      {
+        path : "Edu",
+        element : <Edu />
       }
       
-    
     ]
   }
 ])
