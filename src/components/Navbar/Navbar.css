@@ -20,7 +20,7 @@ nav ul li a{
 }
 
 ul li a:not(.active):hover {
-  color: rgb(71, 19, 121)!important;
+  color: rgb(71, 19, 121);
   transition: .3s;
   font-size: 1.08rem;
 }
