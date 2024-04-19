@@ -6,10 +6,7 @@ function GitHub() {
     useEffect(() =>{
         fetch('https://api.github.com/users/Zaman2024')
         .then(res => res.json())
-        .then(data =>{
-          console.log(data);
-          setData(data)
-        })
+        .then(data =>{setData(data)})
         
     }, [])
   return (
