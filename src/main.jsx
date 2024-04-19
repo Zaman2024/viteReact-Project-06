@@ -8,6 +8,7 @@ import Home from './components/Home/Home'
 import ProSkill from './components/ProSkill/ProSkill'
 import Edu from './components/Education/Edu'
 import User from './components/User/User'
+import GitHub from './components/GitHub/GitHub'
 
 
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path='ProSkill' element= {<ProSkill/>}/>
       <Route path='Edu' element= {<Edu/>}/>
       <Route path='user/:userid' element= {<User/>}/>
+      <Route path='GitHub' element= {<GitHub/>}/>
       
     </Route>
   )

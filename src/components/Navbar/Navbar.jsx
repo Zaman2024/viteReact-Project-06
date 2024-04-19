@@ -37,6 +37,9 @@ export default function Navbar(){
                     <NavLink to='/About'>About</NavLink>
                 </li>
                 <li>
+                    <NavLink to='/GitHub'>Github</NavLink>
+                </li>
+                <li>
                     <NavLink to='/ProSkill'>Pro.Skill</NavLink>
                 </li>
                 <li>
